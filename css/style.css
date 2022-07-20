@@ -109,7 +109,7 @@ body {
   margin-left: 24px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   grid-gap: 15px;
 }
 .blog-description {
@@ -251,7 +251,7 @@ ul li a {
     row-gap: 10px;
   }
   footer {
-    padding: 0;
+    padding: 30px 0;
   }
   ul {
     display: block;
