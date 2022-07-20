@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+/* Common Style */
+body {
+  font-family: "Roboto", sans-serif;
+}
+/* Header Part */
+.container {
+  color: white;
+  background-color: darkcyan;
+  border-radius: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 23px;
+}
+.header-description {
+  margin: 110px 0 110px 80px;
+}
+.description-box .header-title {
+  font-size: 3.5rem;
+}
+.header-img {
+  margin-top: 33px;
+  margin-right: 110px;
+}
+.header-img img {
+  width: 100%;
+}
+.btn {
+  padding: 16px 25px;
+  background-color: #dd0000;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+}
+.btn .btn-name {
+  margin-right: 10px;
+}
