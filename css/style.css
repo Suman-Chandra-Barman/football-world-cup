@@ -171,3 +171,167 @@ ul li a {
   text-decoration: none;
   color: #fbfbfbbd;
 }
+
+/* -----Hidden Items */
+.social-icon {
+  display: none;
+}
+.hidden-btn {
+  display: none;
+}
+
+/* Upcoming mathch Website */
+.upcoming-match {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  padding: 35px 20px 0 20px;
+}
+.match-country {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.match-country img {
+  width: 75px;
+}
+.match-time h3 {
+  font-size: 16px;
+}
+.match-time p {
+  font-size: 12px;
+}
+
+/*------------------------------
+ Responsive Mobile Device 
+ -------------------------------*/
+@media only screen and (max-width: 688px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
+    margin: 15px;
+  }
+  .header-description {
+    padding: 15px;
+  }
+  .description-box {
+    text-align: center;
+    padding: 40px 0;
+  }
+  .description-box .header-title {
+    font-size: 2rem;
+  }
+  .description-box p {
+    font-size: 15px;
+  }
+  .header-img {
+    margin: 0;
+    padding: 0 35px;
+  }
+  .blog-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin: 0;
+  }
+  .blog-description {
+    width: 100%;
+  }
+  .articles-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 12fr;
+    padding: 15px;
+    margin-left: 0;
+  }
+  .sidebar {
+    height: 300px;
+    width: auto;
+    background-color: white;
+    row-gap: 10px;
+  }
+  footer {
+    padding: 0;
+  }
+  ul {
+    display: block;
+    text-align: center;
+    padding: 0;
+  }
+  ul li {
+    padding: 15px 30px;
+  }
+  .social-icon {
+    display: block;
+  }
+  .social-icon ul {
+    display: flex;
+    justify-content: center;
+  }
+  .icon {
+    color: white;
+    font-size: 20px;
+  }
+}
+/*------------------------------
+ Responsive Tablet Device 
+ -------------------------------*/
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+  .container {
+    margin: 40px 30px 0;
+  }
+  .blog-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin: 0;
+  }
+  .header-img {
+    margin-top: 30px;
+    margin-right: 5px;
+  }
+  .blog-description {
+    width: 100%;
+  }
+  .articles-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    padding: 30px;
+    margin-left: 0;
+  }
+  .sidebar {
+    width: auto;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: white;
+    height: 125px;
+    column-gap: 30px;
+  }
+  .sidebar .sidebar-btn {
+    background-color: inherit;
+    border: 1px solid #dedddd;
+    padding: 20px 5px;
+  }
+  .sidebar .sidebar-btn a {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .hidden-btn {
+    display: block;
+    text-align: center;
+    margin: 50px 0;
+  }
+  .hidden-btn .btn {
+    padding: 18px 35px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  footer {
+    padding: 50px;
+  }
+  ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  ul li {
+    padding: 15px;
+  }
+}
