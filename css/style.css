@@ -1,13 +1,21 @@
 * {
   box-sizing: border-box;
 }
-/* Common Style */
+/*----------------------------------
+ Common Style 
+ -----------------------------------*/
+html {
+  scroll-behavior: smooth;
+}
 body {
   scroll-behavior: smooth;
   font-family: "Roboto", sans-serif;
   margin: 0;
 }
-/* Header Part */
+
+/*----------------------------------
+        Header Part Style
+ ----------------------------------*/
 .container {
   color: white;
   background-color: darkcyan;
@@ -44,7 +52,7 @@ body {
 .btn .btn-name {
   margin-right: 10px;
 }
-/* Header Animation */
+/* -- Header Animation -- */
 .container:hover {
   animation: color-changer 10s linear;
 }
@@ -74,13 +82,14 @@ body {
   }
 }
 
-/* Blog part Style */
+/*----------------------------------
+          Blog part Style
+ ----------------------------------*/
 .blog-container {
   margin: 100px;
   display: grid;
   grid-template-columns: 210px 1fr;
 }
-
 .sidebar {
   height: 250px;
   width: 210px;
@@ -98,6 +107,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.sidebar .sidebar-btn:hover {
+  background-color: #dd0000;
 }
 .sidebar .sidebar-btn a {
   font-size: 15px;
@@ -144,7 +156,9 @@ body {
   color: rgba(22, 22, 22, 0.7);
 }
 
-/* Footer Part */
+/*----------------------------------
+          Footer part Style
+ ----------------------------------*/
 footer {
   background-color: darkcyan;
   padding: 80px 50px;
@@ -172,15 +186,9 @@ ul li a {
   color: #fbfbfbbd;
 }
 
-/* -----Hidden Items */
-.social-icon {
-  display: none;
-}
-.hidden-btn {
-  display: none;
-}
-
-/* Upcoming mathch Website */
+/* --------------------------------------
+        Upcoming mathch Website 
+  ----------------------------------------*/
 .upcoming-match {
   display: grid;
   justify-content: center;
@@ -202,6 +210,16 @@ ul li a {
 }
 .match-time p {
   font-size: 12px;
+}
+
+/* -----------------------------
+        Hidden Items 
+  -------------------------------*/
+.social-icon {
+  display: none;
+}
+.hidden-btn {
+  display: none;
 }
 
 /*------------------------------
@@ -240,7 +258,6 @@ ul li a {
   }
   .articles-container {
     grid-template-columns: 1fr;
-    grid-template-rows: 12fr;
     padding: 15px;
     margin-left: 0;
   }
