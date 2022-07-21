@@ -49,36 +49,29 @@ body {
   border: 0;
   border-radius: 5px;
 }
+.btn:hover {
+  background-color: #fffffff5;
+  color: black;
+}
 .btn .btn-name {
   margin-right: 10px;
 }
 /* -- Header Animation -- */
-.container:hover {
-  animation: color-changer 10s linear;
+h1 {
+  animation-duration: 4s;
+  animation-name: slidein;
+  animation-iteration-count: 5;
+  position: relative;
 }
-@keyframes color-changer {
-  0% {
-    background-color: darkcyan;
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 100%;
   }
 
-  20% {
-    background-color: rgb(60, 212, 212);
-  }
-
-  40% {
-    background-color: rgb(7, 71, 249);
-  }
-
-  60% {
-    background-color: rgb(151, 86, 86);
-  }
-
-  80% {
-    background-color: rgb(42, 42, 235);
-  }
-
-  100% {
-    background-color: rgb(189, 215, 98);
+  to {
+    margin-left: 0%;
+    width: 100%;
   }
 }
 
