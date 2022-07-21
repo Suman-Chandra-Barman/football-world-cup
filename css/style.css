@@ -1,3 +1,4 @@
+/* Global */
 * {
   box-sizing: border-box;
 }
@@ -60,7 +61,7 @@ body {
 h1 {
   animation-duration: 4s;
   animation-name: slidein;
-  animation-iteration-count: 5;
+  animation-iteration-count: 3;
   position: relative;
 }
 @keyframes slidein {
@@ -294,6 +295,9 @@ ul li a {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     margin: 0;
+  }
+  .description-box .header-title {
+    font-size: 2.5rem;
   }
   .header-img {
     margin-top: 30px;
