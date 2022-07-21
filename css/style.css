@@ -180,6 +180,15 @@ ul li a {
   color: #fbfbfbbd;
 }
 
+/* social icon */
+.social-icon ul {
+  display: flex;
+  justify-content: center;
+}
+.icon {
+  color: #fbfbfbbd;
+  font-size: 18px;
+}
 /* --------------------------------------
         Upcoming mathch Website 
   ----------------------------------------*/
@@ -210,7 +219,7 @@ ul li a {
         Hidden Items 
   -------------------------------*/
 .social-icon {
-  display: none;
+  display: block;
 }
 .hidden-btn {
   display: none;
@@ -272,16 +281,9 @@ ul li a {
   ul li {
     padding: 15px 30px;
   }
-  .social-icon {
-    display: block;
-  }
-  .social-icon ul {
-    display: flex;
-    justify-content: center;
-  }
-  .icon {
-    color: white;
-    font-size: 20px;
+
+  .social-icon ul li {
+    padding: 10px 15px;
   }
 }
 /*------------------------------
